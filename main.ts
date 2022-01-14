@@ -244,7 +244,6 @@ fish = sprites.create(img`
     . . . . . . f f f f d d d c . . 
     . . . . . . . . . . c c c . . . 
     `, SpriteKind.Player)
-fish.setPosition(134, 16)
 fish.setVelocity(50, 50)
 fish.setStayInScreen(true)
 fish.setBounceOnWall(true)
