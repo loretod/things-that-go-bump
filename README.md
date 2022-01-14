@@ -9,7 +9,7 @@ Switch to the simulator window and hit play. Was you're prediction correct? Anyt
 
 ## Investigate
 Now... let's see what happens if you select "Enemy" as one of the players? Take a look at the hint if you need to see how.
-```
+``` blocks
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     fish.sayText("Yum!", 1000, false)
     sea_weed.setImage(img`
@@ -124,8 +124,9 @@ Now change the player attributes back to "Player" and "Food".
 
 ## Modify
 Time to change things up. Play around with the some of the settings and see what happens.
--[] Change what happens when the fish and food collide.
--[] Try moving the spawing point of the food or fish after they collide.
+
+-[] Change what happens when the fish and food collide.  
+-[] Try moving the spawing point of the food or fish after they collide.  
 
 ## Make
 Now it's your turn!
