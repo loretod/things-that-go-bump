@@ -305,7 +305,7 @@ This 2 Minute Arcade tutorial will walk you through how to detect collisions bet
 
 ## Predict
  
-- :brain: Take a look at the code and make a prediction. What do you think will happen?
+- :crystal_ball: Take a look at the code and make a prediction. What do you think will happen?
 
 ## Run
 Switch to the simulator window and hit play. Was you're prediction correct? Anything unexpected?
