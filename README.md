@@ -305,25 +305,28 @@ This 2 Minute Arcade tutorial will walk you through how to detect collisions bet
 
 ## Predict
  
-- :paper plane: Take a look at the code and make a prediction. What do you think will happen?
-
+- :brain: Take a look at the code and make a prediction. What do you think will happen?
 
 ## Run
 Switch to the simulator window and hit play. Was you're prediction correct? Anything unexpected?
 
 ## Investigate
-Now... let's see what happens if you select "Enemy" as one of the players? Take a look at the hint if you need to see how.
+Now... let's see what happens if you select "Enemy" as one of the players? 
+
+Take a look at the hint if you need to see how.
 ```blocks
     //@highlight
     sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     })
 ```
+Switch over to the simulator to see what happens.
+
 ## Huh!
-Because we created the sea weed sprite with the "food" attribute, the event collision is never triggered.
+Because we created the seaweed sprite with the "food" tag, the event collision is never triggered.
 
-When creating a game, make sure to pay attention to your sprite's attributes.
+When creating a game, make sure to pay attention to your sprite's tags.
 
-Now change the player attributes back to "Player" and "Food".
+Now change the player tags back to "Player" and "Food".
 
 ## Modify
 Time to change things up. Play around with the some of the settings and see what happens.
@@ -334,13 +337,13 @@ Time to change things up. Play around with the some of the settings and see what
 ## Make
 Now it's your turn!
 
-Add another sprite to the game and give it a new attribute. Either "Enemy" or create your own.
+Add another sprite to the game and give it a new tag. Either "Enemy" or create your own.
 
 Make something happen when the sprites collide.
 
 ## Recap
-In this 2 Minute Arcade, we learned how to create two sprites and use the attributes of each sprite to detect a collision.
+In this 2 Minute Arcade, we learned how to create two sprites and use the tags of each sprite to detect a collision.
 
-We also learned that it's pretty important to pay attention to the attributes we assign each sprite.
+We also learned that it's pretty important to pay attention to the tags we assign each sprite.
 
 Nice!
