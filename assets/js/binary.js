@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.7.24/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.3","target":"arcade","targetVersion":"1.7.24","repo":"loretod/things-that-go-bump"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.7.24/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.4","target":"arcade","targetVersion":"1.7.24","repo":"loretod/things-that-go-bump"}
 // total=1166297 new=6.00% cached=88.43% other=5.57%
 (function (ectx) {
 'use strict';
@@ -387,7 +387,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P132977(s) {
+function _main___P133289(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -751,13 +751,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P132977.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P132977.continuations = [  ]
+_main___P133289.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P133289.continuations = [  ]
 
-function _main___P132977_mk(s) {
+function _main___P133289_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P132977, depth: s.depth + 1,
+        parent: s, fn: _main___P133289, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -39218,5 +39218,5 @@ const sprites_BaseSpriteSayRenderer__C115554_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___117375"])
 
-return _main___P132977
+return _main___P133289
 })
