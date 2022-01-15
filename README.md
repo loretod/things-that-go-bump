@@ -1,9 +1,4 @@
 # Things that Go Bump
-This 2 Minute Arcade tutorial will walk you through how to detect collisions between sprites.
-
-## - :brain: Predict
-Take a look at the code and make a prediction. What do you think will happen?
-
 ```template
     sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
         fish.sayText("Yum!", 1000, false)
@@ -306,6 +301,13 @@ Take a look at the code and make a prediction. What do you think will happen?
         `, SpriteKind.Food)
     sea_weed.setPosition(134, 95)
 ```
+This 2 Minute Arcade tutorial will walk you through how to detect collisions between sprites.
+
+## Predict
+- :brain:  
+Take a look at the code and make a prediction. What do you think will happen?
+
+
 
 ## Run
 Switch to the simulator window and hit play. Was you're prediction correct? Anything unexpected?
@@ -313,6 +315,7 @@ Switch to the simulator window and hit play. Was you're prediction correct? Anyt
 ## Investigate
 Now... let's see what happens if you select "Enemy" as one of the players? Take a look at the hint if you need to see how.
 ```blocks
+    //@highlight
     sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
         fish.sayText("Yum!", 1000, false)
         sea_weed.setImage(img`
@@ -417,7 +420,7 @@ Now... let's see what happens if you select "Enemy" as one of the players? Take 
             ........87688...
             `)
     })
-    ```
+```
 ## Huh!
 Because we created the sea weed sprite with the "food" attribute, the event collision is never triggered.
 
